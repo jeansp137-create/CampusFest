@@ -24,6 +24,3 @@ Todo está en la carpeta `docs`, hecho en [draw.io](https://app.diagrams.net/):
 
 Los archivos `.drawio` se abren gratis en [app.diagrams.net](https://app.diagrams.net/) o con la extensión de draw.io en VS Code.
 
-## Estado
-
-🚧 En construcción: se irá completando poco a poco.
