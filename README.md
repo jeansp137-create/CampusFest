@@ -25,11 +25,11 @@ Todos los diagramas están hechos en [draw.io](https://app.diagrams.net/).
 Los casos de uso: quién usa la app y para qué.
 
 ### `docs/Analisis`
-Cómo se conectan las partes por dentro, con una carpeta por cada uno de los 9 casos de uso. Cada una tiene su diagrama de **colaboración** (sin mensajes) y de **comunicación** (con mensajes numerados). Todos incluyen *Consultar eventos*.
+Cómo se conectan las partes por dentro, con una carpeta por cada uno de los 9 casos de uso. Cada una tiene su diagrama de **colaboración** (sin mensajes), de **comunicación** (con mensajes numerados) y de **secuencia**. Todos incluyen *Consultar eventos*.
 
 | # | Carpeta | Quién | De qué trata |
 |---|---|---|---|
-| 1 | `Consultar_Cupos` | Estudiante | Ver cuántos cupos quedan (también tiene el de **secuencia**) |
+| 1 | `Consultar_Cupos` | Estudiante | Ver cuántos cupos quedan |
 | 2 | `Reservar` | Estudiante | Apartar un lugar, que queda pendiente |
 | 3 | `Confirmar_Reserva` | Estudiante | Confirmar antes de los 10 minutos |
 | 4 | `Cancelar_Reserva_Estudiante` | Estudiante | Cancelar su reserva |
