@@ -25,15 +25,19 @@ Todos los diagramas están hechos en [draw.io](https://app.diagrams.net/).
 Los casos de uso: quién usa la app y para qué.
 
 ### `docs/Analisis`
-Cómo se conectan las partes por dentro, ordenado por caso de uso. Cada carpeta tiene su diagrama de **colaboración**, de **comunicación** (con mensajes numerados) y de **secuencia**:
+Cómo se conectan las partes por dentro, con una carpeta por cada uno de los 9 casos de uso. Cada una tiene su diagrama de **colaboración** (sin mensajes) y de **comunicación** (con mensajes numerados). Todos incluyen *Consultar eventos*.
 
-| Carpeta | De qué trata |
-|---|---|
-| `Consultar_Cupos` | Ver cuántos cupos quedan en un evento |
-| `Gestionar_Reserva` | Reservar, confirmar y cancelar |
-| `Registrar_Asistencia` | Marcar la llegada al evento |
-| `Modificar_Evento` | El organizador cambia los datos de un evento |
-| `Generar_Reportes` | Reportes de reservas y de asistencia |
+| # | Carpeta | Quién | De qué trata |
+|---|---|---|---|
+| 1 | `Consultar_Cupos` | Estudiante | Ver cuántos cupos quedan (también tiene el de **secuencia**) |
+| 2 | `Reservar` | Estudiante | Apartar un lugar, que queda pendiente |
+| 3 | `Confirmar_Reserva` | Estudiante | Confirmar antes de los 10 minutos |
+| 4 | `Cancelar_Reserva_Estudiante` | Estudiante | Cancelar su reserva |
+| 5 | `Registrarse_Asistencia` | Estudiante | Registrar el ingreso con el código QR |
+| 6 | `Gestionar_Evento` | Organizador | Cambiar los datos de un evento |
+| 7 | `Generar_Reporte_Reservas` | Organizador | Listado de reservas de un evento |
+| 8 | `Generar_Reporte_Asistencia` | Organizador | Listado de ingresos de un evento |
+| 9 | `Cancelar_Reserva_Organizador` | 10 mins de una reserva | Se cancela sola si no se confirma a tiempo |
 
 Además:
 - `Colaboracion_General.drawio`: la vista general de cómo trabajan juntas todas las piezas.
