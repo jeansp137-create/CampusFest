@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="YjkdMYt-95H1ZNuUZhbg">
+    <mxGraphModel dx="1217" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_est" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;b&gt;&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Estudiante" vertex="1">
+          <mxGeometry height="60" width="30" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_org" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;b&gt;&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Organizador" vertex="1">
+          <mxGeometry height="60" width="30" x="620" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rep_asist" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;límite&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Reporte&lt;br&gt;Asistencia" vertex="1">
+          <mxGeometry height="60" width="70" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pantalla" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;límite&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Pantalla&lt;br&gt;Eventos" vertex="1">
+          <mxGeometry height="60" width="70" x="465" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rep_res" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;límite&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Reporte&lt;br&gt;Reservas" vertex="1">
+          <mxGeometry height="60" width="70" x="860" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_asist" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Gestión&lt;br&gt;Asistencia" vertex="1">
+          <mxGeometry height="70" width="70" x="165" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_calc" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Calcular&lt;br&gt;Disponibilidad" vertex="1">
+          <mxGeometry height="70" width="70" x="365" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_res" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Gestión&lt;br&gt;Reserva" vertex="1">
+          <mxGeometry height="70" width="70" x="665" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_asist" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;entidad&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Asistencia" vertex="1">
+          <mxGeometry height="70" width="70" x="165" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_evento" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;entidad&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Evento" vertex="1">
+          <mxGeometry height="70" width="70" x="465" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_res" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;entidad&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Reserva" vertex="1">
+          <mxGeometry height="70" width="70" x="665" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_estud" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;verticalAlign=top;verticalLabelPosition=bottom;" value="&lt;b&gt;&amp;lt;&amp;lt;entidad&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;Estudiante" vertex="1">
+          <mxGeometry height="70" width="70" x="165" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="actor_est" style="endArrow=none;html=1;strokeWidth=1.5;" target="pantalla">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="actor_org" style="endArrow=none;html=1;strokeWidth=1.5;" target="pantalla">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="rep_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="pantalla">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="pantalla" style="endArrow=none;html=1;strokeWidth=1.5;" target="rep_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="pantalla" style="endArrow=none;html=1;strokeWidth=1.5;" target="ctrl_asist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="pantalla" style="endArrow=none;html=1;strokeWidth=1.5;" target="ctrl_calc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="pantalla" style="endArrow=none;html=1;strokeWidth=1.5;" target="ctrl_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="pantalla" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="rep_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="ctrl_asist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="rep_res" style="endArrow=none;html=1;strokeWidth=1.5;" target="ctrl_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="ctrl_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ctrl_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_asist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="ctrl_asist" style="endArrow=none;html=1;strokeWidth=1.5;curved=1;" target="ent_res">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="ctrl_calc" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="ctrl_calc" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="ctrl_res" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="ctrl_res" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="ent_evento" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_asist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="ent_evento" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_res">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="ent_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_estud">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="ent_asist" style="endArrow=none;html=1;strokeWidth=1.5;" target="ent_res">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="620" />
+              <mxPoint x="700" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
